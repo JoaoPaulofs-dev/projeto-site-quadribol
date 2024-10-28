@@ -42,9 +42,16 @@ nav{
     padding: 5px;
     font-size: 1.3em;
     text-align: center;
+    font-weight: bold;
 }
 nav a{
     color: black;
     text-decoration: none;
     padding: 0px 5px;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: #001e3b;
+    border-radius: 10px;
+    color: var(--cor002);
 }
