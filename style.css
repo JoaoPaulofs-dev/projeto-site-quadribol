@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+:root{
+    --fonte-base:Arial, Helvetica, sans-serif;
+    --fonte-secundaria:"Noto Sans", sans-serif;
+
+    --cor001: #007F5F;
+    --cor002: #FFC300;
+    --cor003: #00509E;
+    --cor004: #A4133C;
+    --cor005: #D9D9D9;
+
+
+}
+body{
+    background-image: url(imagens/fundo-index.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: var(--fonte-base);
+    
+}
+header{
+    background-color: var(--cor002);
+    padding: 25px;
+    text-align: center;
+}
+header h1{
+    font-family: var(--fonte-secundaria);
+    font-size: 3em;
+}
+nav{
+    background-color: var(--cor003);
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+}
