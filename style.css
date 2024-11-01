@@ -19,7 +19,11 @@
 
 
 }
-body{
+body.paginas{
+    background-color: var(--cor001);
+    font-family: var(--fonte-base);
+}
+body.home{
     background-image: url(imagens/fundo-index.png);
     background-position: center center;
     background-attachment: fixed;
@@ -32,6 +36,7 @@ header{
     background-color: var(--cor002);
     padding: 25px;
     text-align: center;
+    
 }
 header h1{
     font-family: var(--fonte-secundaria);
@@ -43,6 +48,7 @@ nav{
     font-size: 1.3em;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 nav a{
     color: black;
@@ -54,4 +60,59 @@ nav a:hover{
     background-color: #001e3b;
     border-radius: 10px;
     color: var(--cor002);
+}
+main{
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 6px;
+    margin-bottom: 10px;
+
+}
+
+main.home{
+    height: 80vh;
+    background-color: transparent;
+}
+main h2{
+    font-family: var(--fonte-secundaria);
+    font-weight: bold;
+    font-size: 1.5em;
+    
+    margin:5px 0px 5px 25px;
+}
+main h2.times{
+    text-align: center;
+    margin-bottom: 10px;
+}
+main p{
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 1.5;
+}
+main li{
+    padding: 5px;
+    list-style-position: inside;
+}
+main img{
+    width: 100px;
+}
+main iframe{
+    height: 400px;
+    width: 490px;
+}
+footer{
+    background-color: var(--cor004);
+    text-align: center;
+    color: white;
+    padding: 5px;
+    
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: black;
 }
