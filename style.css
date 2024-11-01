@@ -99,6 +99,11 @@ main li{
 main img{
     width: 100px;
 }
+main div{
+    display: inline;
+    margin: auto;
+    
+}
 main iframe{
     display: block;
     margin: auto;
